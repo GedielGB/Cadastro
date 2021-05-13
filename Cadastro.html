@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1 id="title"><strong>Cadastro de Usuário</strong></h1>
+    <p id="subtitle"><strong>Preencha os campos abaixo</strong></p>
+    <br>
+    <form>
+        <fieldset class="group">
+            <div class="field">
+                <label for="Nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            
+            <div class="field">
+                <label for="Cpf"><strong>Cpf</strong></label>
+                <input type="int" name="Cpf" id="Cpf" required>
+            </div>
+
+            <div class="field">
+                <label for="Email"><strong>Email</strong></label>
+                <input type="email" name="Email" id="Email" required>
+            </div>
+            
+            <div class="field">
+                <label for="Logradouro"><strong>Logradouro</strong></label>
+                <input type="text" name="Logradouro" id="Logradouro" required>
+            </div>
+            
+            <div class="field">
+                <label for="Número"><strong>Número</strong></label>
+                <input type="int" name="Número" id="Número" required>
+            </div>
+           
+            <div class="field">
+                <label for="Bairro"><strong>Bairro</strong></label>
+                <input type="text" name="Bairro" id="Bairro" required>
+            </div>
+
+            <div class="field">
+                <label for="Cidade"><strong>Cidade</strong></label>
+                <input type="text" name="Cidade" id="Cidade" required>
+            </div>
+
+            <div class="field">
+                <label for="Estado"><strong>Estado</strong></label>
+                <select id="Estado" required>
+                    <option selected disabled value="">----</option>
+                    <option>AL</option>
+                    <option>AC</option>
+                    <option>AL</option>
+                    <option>AP</option>
+                    <option>AM</option>
+                    <option>BA</option>
+                    <option>CE</option>
+                    <option>DF</option>
+                    <option>ES</option>
+                    <option>GO</option>
+                    <option>MA</option>
+                    <option>MT</option>
+                    <option>MS</option>
+                    <option>MG</option>
+                    <option>PA</option>
+                    <option>PB</option>
+                    <option>PR</option>
+                    <option>PE</option>
+                    <option>PI</option>
+                    <option>RJ</option>
+                    <option>RN</option>
+                    <option>RS</option>
+                    <option>RO</option>
+                    <option>RR</option>
+                    <option>SC</option>
+                    <option>SP</option>
+                    <option>SE</option>
+                    <option>TO</option>
+                </select>
+            </div>
+        </fieldset>
+        <div>
+            <button class="button" type="submit">Cadastrar</button>
+        </div>
+    </form>
+    
+</body>
+</html>
+
